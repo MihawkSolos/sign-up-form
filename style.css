@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --myFont: "Gowun Batang", serif;
+}
+
+.backImg{
+    background-image: url('suf-image.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40vh;
+    height: 100vh;
+    margin: 0;
+    padding: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin-logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    opacity: 65%;
+    width: 40vh;
+    margin: 0;
+}
+
+img {
+    height: 130px;
+    width: 100px;
+}
+
+.odin-logo-container > p {
+    color: #fff;
+    font-size: 3.5rem;
+    font-family: var(--myFont);
+}
+
+.backgroundImg-footer {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    top: 320px;
+    font-size: 0.75rem;
+    font-family: var(--myFont);
+    opacity: 80%;
+}
+
+p > span {
+    text-decoration: underline;
+}
