@@ -23,45 +23,60 @@
         <div class="message">
             <p>This is not a real online service! You know you need something
                 like this in your life to help you realize your deepest dreams.
-                sign up <em>now</em> to get started.
+                <br>
+                Sign up <em>now</em> to get started.
             </p>
             <p>You know you want to.</p>
         </div>
 
         <div class="form-container">
-            <p class="form-message">Let's do this!</p>
-            <form>
-                <div class="firstName">
-                   <label for="first-name">First Name</label>
-                    <input type="text" id="first-name"> 
-                </div>
-                
-                <div class="lastName">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name">
-                </div>
-
-                <div class="email">
-                    <label for="email">Email</label>
-                    <input type="email" id="email">
-                </div>
-
-                <div class="number">
-                    <label for="number">Phone Number</label>
-                    <input type="number" id="number">
-                </div>
-
-                <div class="password">
-                    <label for="password">Password</label>
-                    <input type="password" id="password">
-                </div>
-
-                <div class="confirm-password">
-                    <label for="confirm-password">Confirm Password</label>
-                    <input type="password" id="confirm-password">
-                </div>
-            </form>
+            <div>
+                <p class="form-message">Let's do this!</p>
+            </div>
+        
+            <div class="input-container">
+                <form>
+                    <div class="input-group">
+                        <div class="firstName">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" placeholder="John">
+                        </div>
+        
+                        <div class="lastName">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" placeholder="Doe">
+                        </div>
+                    </div>
+        
+                    <div class="input-group">
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="user@example.com">
+                        </div>
+        
+                        <div class="number">
+                            <label for="number">Phone Number</label>
+                            <input type="tel" id="number" placeholder="(000)000-0000">
+                        </div>
+                    </div>
+        
+                    <!-- Wrap the password inputs in an input-group -->
+                    <div class="input-group">
+                        <div class="password">
+                            <label for="password">Password</label>
+                            <input type="password" id="password">
+                        </div>
+        
+                        <div class="confirm-password">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password">
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
+        
+        
 
         <div class="btnContainer">
             <button class="create-acc">Create Account</button>
