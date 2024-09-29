@@ -9,6 +9,8 @@ body{
     --myFont: "Gowun Batang", serif;
 }
 
+/* left side of page */
+
 .backImg{
     background-image: url('suf-image.avif');
     background-repeat: no-repeat;
@@ -60,6 +62,8 @@ p > span {
     text-decoration: underline;
 }
 
+/* left side of page */
+
 
 /* Input section  */
 
@@ -72,34 +76,42 @@ p > span {
 }
 
 .message {
-    padding: 25px;
+    padding-left: 30px;
     font-size: 1.25rem;
+    position: relative;
+    bottom: 20px;
+    font-weight: 500;
 }
 
 .form-message {
     font-size: 2rem;
     font-family: var(--myFont);
+    margin: 0;
 }
 
 .form-container {
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding-left: 30px;
+}
+
+.message-div {
+    margin-bottom: 6px;
 }
 
 .input-group {
-    display: flex; /* Use flex to align items horizontally */
-    justify-content: space-between; /* Space out items */
-    margin-bottom: 10px; /* Space between input groups */
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 10px; 
 }
 
 input {
-    margin: 2px 10px 10px 0; /* Adjust margins as needed */
-    flex: 1; /* Allow inputs to grow to fill space */
+    margin: 2px  60px 10px 0; 
+    flex: 1; 
 }
 
 label {
-    flex: 1; /* Optional: equal space for labels */
+    flex: 1; 
 }
 
 
@@ -110,7 +122,25 @@ label {
 
 /* Create Account button and text below it */
 
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: var(--myFont);
+}
 
+button {
+    background-color: rgb(90, 90, 40);
+    font-family: var(--myFont);
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
 
 
 

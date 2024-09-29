@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
     <title>Sing-Up-Form</title>
@@ -30,7 +31,7 @@
         </div>
 
         <div class="form-container">
-            <div>
+            <div class="message-div">
                 <p class="form-message">Let's do this!</p>
             </div>
         
@@ -38,38 +39,37 @@
                 <form>
                     <div class="input-group">
                         <div class="firstName">
-                            <label for="first-name">First Name</label>
-                            <input type="text" id="first-name" placeholder="John">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" placeholder="John" required>
                         </div>
         
                         <div class="lastName">
-                            <label for="last-name">Last Name</label>
-                            <input type="text" id="last-name" placeholder="Doe">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" placeholder="Doe" required>
                         </div>
                     </div>
         
                     <div class="input-group">
                         <div class="email">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="user@example.com">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" placeholder="user@example.com" required>
                         </div>
         
                         <div class="number">
-                            <label for="number">Phone Number</label>
-                            <input type="tel" id="number" placeholder="(000)000-0000">
+                            <label for="number">PHONE NUMBER</label>
+                            <input type="tel" id="number" placeholder="(000)000-0000" required>
                         </div>
                     </div>
         
-                    <!-- Wrap the password inputs in an input-group -->
                     <div class="input-group">
                         <div class="password">
-                            <label for="password">Password</label>
-                            <input type="password" id="password">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" required>
                         </div>
         
                         <div class="confirm-password">
-                            <label for="confirm-password">Confirm Password</label>
-                            <input type="password" id="confirm-password">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" required>
                         </div>
                     </div>
                 </form>
