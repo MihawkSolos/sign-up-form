@@ -106,12 +106,23 @@ p > span {
 }
 
 input {
-    margin: 2px  60px 10px 0; 
+    margin: 2px  60px 0px 0; 
     flex: 1; 
+}
+
+/* remove default values of focus and blur */
+input:focus {
+    outline: none;
 }
 
 label {
     flex: 1; 
+}
+
+.error {
+    padding: 2px;
+    font-family: var(--myFont);
+    font-size: 0.75rem;
 }
 
 
@@ -124,9 +135,9 @@ label {
 
 .btnContainer {
     display: flex;
-    flex-direction: column;
-    padding-left: 30px;
+    padding-left: 0px;
     padding-top: 20px;
+    padding-bottom: 0;
     font-family: var(--myFont);
 }
 
@@ -142,7 +153,16 @@ button {
     border-radius: 10px;
 }
 
+button:hover {
+    opacity: 80%;
+}
 
+a{
+    text-decoration: none;
+}
 
+.login{
+    margin-left: 28px;
+}
 
 /* Create Account button and text below it */
